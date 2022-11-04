@@ -1,5 +1,3 @@
-package week4;
-
 
 import java.io.IOException;
 import java.net.ServerSocket;
