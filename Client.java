@@ -24,12 +24,12 @@ public class Client{
                 System.out.println("Input your message:");
                 Scanner scanner = new Scanner(System.in);
                 this.in_message = scanner.nextLine();
-                // If user wants to quit
-                if (in_message.equals("quit")){
-                    printer.println("<<[" + this.username + "] " + "has left>>");
-                    printer.close();
-                    break;
-                }
+//                 // If user wants to quit
+//                 if (in_message.equals("quit")){
+//                     printer.println("<<[" + this.username + "] " + "has left>>");
+//                     printer.close();
+//                     break;
+//                 }
 
                 printer.println("[" + this.username + "]: " + this.in_message);
                 printer.flush();
